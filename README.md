@@ -67,3 +67,8 @@ where M and N are the lengths of the strings
 
 For detailed explanation of how this efficient algorithm works, please refer to: Algorithm Design book by Jon Kleinberg and Éva Tardos.
 
+# Running the code
+
+Run the code by executing the following line in the terminal:
+
+python eff_3_class.py <input file name> <output file name>
