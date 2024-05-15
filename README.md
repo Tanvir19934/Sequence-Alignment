@@ -71,4 +71,5 @@ For detailed explanation of how this efficient algorithm works, please refer to:
 
 Run the code by executing the following line in the terminal:
 
-python eff_3_class.py <input file name> <output file name>
+```sh
+python3 eff_3_class.py <input file name> <output file name>
