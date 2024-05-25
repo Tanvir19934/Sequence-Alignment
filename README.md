@@ -1,5 +1,5 @@
 # Sequence-Alignment
-This is a famous problem where we have two RNA sequences (strings consisting of 'A', 'T', 'C', 'G') of different/same length and we want to align the two sequnece to maiximize their similarity. The alignment cost tells us how similar the two sequences are. This is a famous problem in computational biology. We are given two sequences, mismatch cost (if 'A' is not aligned with 'A', there is a penalty), and gap cost (a letter may be aligned with a gap '_', which also incurs a penalty).
+This is a famous problem where we have two RNA sequences (strings consisting of `A`, `T`, `C`, `G`) of different/same length and we want to align the two sequnece to maiximize their similarity. The alignment cost tells us how similar the two sequences are. This is a famous problem in computational biology. We are given two sequences, mismatch cost (if `A` is not aligned with `A`, there is a penalty), and gap cost (a letter may be aligned with a gap `_`, which also incurs a penalty).
 
 # INPUT
 The input file is a blueprint to generate two random sequences. The code takes this input file and processes it to get two sequences. Consider the following input as an example:
