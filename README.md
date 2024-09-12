@@ -58,12 +58,12 @@ Output file consists of following lines:
 
 # ALGORITHM
 This problem can be solved using a dynamic programming (DP) approach. However, the pure DP approach is not memory efficient, i.e., it needs to create a full DP table of size len(string1)*len(string2). This may be impractical due to the fact that a real RNA sequence can be very long and it would be impossible to store this huge DP table into the memory.
-That is why we use DP along with Divide and Conquer (DC) approach. DP, combined with DC allows us to use linear memory.
-Pure DP approach time complexity: O(MN)
-Efficient DP (DP+DC) approach time complexity: O(MN)
-Pure DP approach space complexity: O(MN)
-Efficient DP (DP+DC) approach space complexity: O(M+N)
-where M and N are the lengths of the strings
+That is why we use DP along with Divide and Conquer (DC) approach. DP, combined with DC allows us to use linear memory.  
+Pure DP approach time complexity: O(MN)  
+Efficient DP (DP+DC) approach time complexity: O(MN)  
+Pure DP approach space complexity: O(MN)  
+Efficient DP (DP+DC) approach space complexity: O(M+N)    
+where M and N are the lengths of the strings.
 
 For detailed explanation of how this efficient algorithm works, please refer to: Algorithm Design book by Jon Kleinberg and Éva Tardos.
 
